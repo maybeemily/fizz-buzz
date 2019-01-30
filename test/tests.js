@@ -9,8 +9,13 @@ function fizzBuzz(num) {
 
 test('number evenly divisible will return fizz', function(assert) {
     let result = fizzBuzz(3);
-    assert.equal(return, 'fizz');
+    assert.equal(result, 'fizz');
 });
+
+test('number eveny divisible by 5 will return buzz', funciton(assert) {
+    let result = fizzBuzz(5);
+    assert.equal(result, 'buzz');
+})
 
 
 

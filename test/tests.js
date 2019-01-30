@@ -17,12 +17,12 @@ function fizzBuzz(num) {
     
 }
 
-test('number evenly divisible will return fizz', function(assert) {
+test('number evenly divisible by 3 will return fizz', function(assert) {
     let result = fizzBuzz(3);
     assert.equal(result, 'Fizz');
 });
 
-test('number eveny divisible by 5 will return buzz', function(assert) {
+test('number evenly divisible by 5 will return buzz', function(assert) {
     let result = fizzBuzz(5);
     assert.equal(result, 'Buzz');
 });
@@ -40,6 +40,6 @@ test('any number not divisible by 3, 5, or both will return the number', functio
 });
 
 
-// Numbers evenly divisable by 3 should be replace with `Fizz`
-// Numbers evenly divisable by 5 should be replace with `Buzz`
-// Numbers evenly divisable by 3 **and** 5 should be replace with `FizzBuzz`
+// Numbers evenly divisible by 3 should be replaced with `Fizz`
+// Numbers evenly divisible by 5 should be replaced with `Buzz`
+// Numbers evenly divisible by 3 **and** 5 should be replaced with `FizzBuzz`
